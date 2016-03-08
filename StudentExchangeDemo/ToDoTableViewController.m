@@ -23,6 +23,9 @@
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+    /*
+     This will be for a later lesson. Implement delete for to do entities.
+     */
     //self.navigationItem.leftBarButtonItem = self.editButtonItem;
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     self.title = @"To Do List";
