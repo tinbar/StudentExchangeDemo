@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ToDoTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +15,11 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UINavigationController *rootNav = (UINavigationController *)self.window.rootViewController;
+    ToDoTableViewController *toDoTableVC = (ToDoTableViewController *)[rootNav topViewController];
+    toDoTableVC.managedObjectContext = self.managedObjectContext;
     return YES;
 }
 

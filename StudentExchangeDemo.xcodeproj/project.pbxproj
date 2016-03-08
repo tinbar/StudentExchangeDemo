@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		650A15F51C8F658300B052E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 650A15F41C8F658300B052E7 /* main.m */; };
 		650A15F81C8F658300B052E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 650A15F71C8F658300B052E7 /* AppDelegate.m */; };
-		650A15FB1C8F658300B052E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650A15FA1C8F658300B052E7 /* ViewController.m */; };
 		650A15FE1C8F658300B052E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650A15FC1C8F658300B052E7 /* Main.storyboard */; };
 		650A16011C8F658300B052E7 /* StudentExchangeDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 650A15FF1C8F658300B052E7 /* StudentExchangeDemo.xcdatamodeld */; };
 		650A16031C8F658300B052E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650A16021C8F658300B052E7 /* Assets.xcassets */; };
 		650A16061C8F658300B052E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650A16041C8F658300B052E7 /* LaunchScreen.storyboard */; };
 		650A16111C8F658300B052E7 /* StudentExchangeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 650A16101C8F658300B052E7 /* StudentExchangeDemoTests.m */; };
 		650A161C1C8F658300B052E7 /* StudentExchangeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 650A161B1C8F658300B052E7 /* StudentExchangeDemoUITests.m */; };
+		656943A01C8F671C00CFA7DD /* ToDoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6569439F1C8F671C00CFA7DD /* ToDoTableViewController.m */; };
+		656943E81C8F682700CFA7DD /* ToDoDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656943E71C8F682700CFA7DD /* ToDoDetailTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +41,6 @@
 		650A15F41C8F658300B052E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		650A15F61C8F658300B052E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		650A15F71C8F658300B052E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		650A15F91C8F658300B052E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		650A15FA1C8F658300B052E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		650A15FD1C8F658300B052E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		650A16001C8F658300B052E7 /* StudentExchangeDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudentExchangeDemo.xcdatamodel; sourceTree = "<group>"; };
 		650A16021C8F658300B052E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +52,10 @@
 		650A16171C8F658300B052E7 /* StudentExchangeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentExchangeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		650A161B1C8F658300B052E7 /* StudentExchangeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentExchangeDemoUITests.m; sourceTree = "<group>"; };
 		650A161D1C8F658300B052E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6569439E1C8F671C00CFA7DD /* ToDoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoTableViewController.h; sourceTree = "<group>"; };
+		6569439F1C8F671C00CFA7DD /* ToDoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoTableViewController.m; sourceTree = "<group>"; };
+		656943E61C8F682700CFA7DD /* ToDoDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoDetailTableViewController.h; sourceTree = "<group>"; };
+		656943E71C8F682700CFA7DD /* ToDoDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoDetailTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +108,10 @@
 			children = (
 				650A15F61C8F658300B052E7 /* AppDelegate.h */,
 				650A15F71C8F658300B052E7 /* AppDelegate.m */,
-				650A15F91C8F658300B052E7 /* ViewController.h */,
-				650A15FA1C8F658300B052E7 /* ViewController.m */,
+				6569439E1C8F671C00CFA7DD /* ToDoTableViewController.h */,
+				6569439F1C8F671C00CFA7DD /* ToDoTableViewController.m */,
+				656943E61C8F682700CFA7DD /* ToDoDetailTableViewController.h */,
+				656943E71C8F682700CFA7DD /* ToDoDetailTableViewController.m */,
 				650A15FC1C8F658300B052E7 /* Main.storyboard */,
 				650A16021C8F658300B052E7 /* Assets.xcassets */,
 				650A16041C8F658300B052E7 /* LaunchScreen.storyboard */,
@@ -273,8 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				650A15FB1C8F658300B052E7 /* ViewController.m in Sources */,
 				650A15F81C8F658300B052E7 /* AppDelegate.m in Sources */,
+				656943E81C8F682700CFA7DD /* ToDoDetailTableViewController.m in Sources */,
+				656943A01C8F671C00CFA7DD /* ToDoTableViewController.m in Sources */,
 				650A16011C8F658300B052E7 /* StudentExchangeDemo.xcdatamodeld in Sources */,
 				650A15F51C8F658300B052E7 /* main.m in Sources */,
 			);
@@ -500,6 +506,7 @@
 				650A16221C8F658300B052E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		650A16231C8F658300B052E7 /* Build configuration list for PBXNativeTarget "StudentExchangeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +515,7 @@
 				650A16251C8F658300B052E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		650A16261C8F658300B052E7 /* Build configuration list for PBXNativeTarget "StudentExchangeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +524,7 @@
 				650A16281C8F658300B052E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
